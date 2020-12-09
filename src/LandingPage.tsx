@@ -32,6 +32,15 @@ export const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 6),
   },
+  searchArea: {
+    backgroundColor: theme.palette.background.paper,
+    margin: 'auto',
+    padding: theme.spacing(0, 0, 6),
+  },
+  labelFilter: {
+    maxWidth: '500px',
+    margin: '0 auto',
+  },
   heroButtons: {
     marginTop: theme.spacing(4),
   },
@@ -85,10 +94,8 @@ export default function LandingPage() {
 
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
-          <ImageData classes={classes}/>
-        </Container>
+        <ImageData classes={classes}/>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justify="center">
             <Grid item>

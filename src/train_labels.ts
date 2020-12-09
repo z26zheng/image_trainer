@@ -10,14 +10,6 @@ export interface ImageItem {
 
 export const IMAGEITEMS: Array<ImageItem> = [
     {
-        "Img_Name": "test.jpg",
-        "Top": "131",
-        "Left": "1687",
-        "Width": "163",
-        "Height": "163",
-        "Label": "Speed Limit 80"
-    },
-    {
         "Img_Name": "02-25 13.26.44.jpg",
         "Top": "131",
         "Left": "1687",
